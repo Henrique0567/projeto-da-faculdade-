@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 254, 254);
+  list-style: none;
+  text-decoration: none;
+}
+
+
+header {
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  width: 60%;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  color: black;
+  cursor: pointer;
+  font-size: 26px; 
+  font-family: 'Kdam Thmor Pro', sans-serif; 
+}
+
+li:hover {
+  color: #550774;
+}
+
+#logo {
+    width: 120px;
+    height: auto;
+    position: relative;
+    right: 110px;
+}
+
+
+#banner {
+    background-image: url('https://cdnm.westwing.com.br/glossary/uploads/br/2015/05/09024404/M%C3%A3os-segurando-ta%C3%A7as-de-vinho-tinto-fazendo-um-brinde-Pexels-c-a3360.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+  }
+
+  .card {
+    
+    position: relative;
+    width: 200px;
+    height: 250px;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    left: 40px;
+  }
+  
+  .bg {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 190px;
+    height: 240px;
+    z-index: 2;
+    background: rgba(255, 255, 255, .95);
+    background-image: url(https://cdn.dooca.store/369/products/vinho-adobe-reserva-sauvignon-blanc-cx-06-grf-750-ml.jpg?v=1712609408&webp=0);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    overflow: hidden;
+    outline: 2px solid white;
+    
+   
+  }
+  
+  .blob {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #0a0a0a;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+    
+  }
+  
+  @keyframes blob-bounce {
+    0% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  
+    25% {
+      transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+    }
+  
+    50% {
+      transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+    }
+  
+    75% {
+      transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+    }
+  
+    100% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  }
+
+  #vinicola {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+
+  .textvini{
+    color: black;
+    font-size: 12px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 90%;
+    position: relative;
+    left: 247px;
+    bottom: 150px;
+  }
+
+  .bguva {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 190px;
+    height: 240px;
+    z-index: 2;
+    background: rgba(255, 255, 255, .95);
+    background-image: url(https://www.emporiofreicaneca.com.br/wp-content/uploads/2020/05/Vinho-Angelica-Zapata-Cabernet-Franc-750ml.png);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    overflow: hidden;
+    outline: 2px solid white;
+    
+   
+  }
+
+  #uva {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+
+  .textuva{
+    color: black;
+    font-size: 12px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 90%;
+    position: relative;
+    left: 247px;
+    bottom: 150px;
+  }
+
+
+  .bgarmazem {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 190px;
+    height: 240px;
+    z-index: 2;
+    background: rgba(255, 255, 255, .95);
+    background-image: url(https://s.zst.com.br/cms-assets/2022/02/design-sem-nome-2022-02-22t145101.508.webp);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    overflow: hidden;
+    outline: 2px solid white;
+    
+   
+  }
+
+  #armazenamento {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+
+  .textarmazem{
+    color: black;
+    font-size: 12px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 90%;
+    position: relative;
+    left: 247px;
+    bottom: 150px;
+  }
+
+  .bgqueijo {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 190px;
+    height: 240px;
+    z-index: 2;
+    background: rgba(255, 255, 255, .95);
+    background-image: url(https://cdn.brasildefato.com.br/media/595cddb7d85fb1d28ca317c20bd37c4f.jpg);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    overflow: hidden;
+    outline: 2px solid white;
+    
+   
+  }
+
+  #hqeuijo{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+
+  .textqueijo{
+    color: black;
+    font-size: 12px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 90%;
+    position: relative;
+    left: 247px;
+    bottom: 150px;
+  }
+
+  .bgacessesorio {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 190px;
+    height: 240px;
+    z-index: 2;
+    background: rgba(255, 255, 255, .95);
+    background-image: url(https://images.tcdn.com.br/img/img_prod/1230084/kit_de_acessorios_para_vinho_103_2_585a256653caf466abaa04239148756b.png);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    overflow: hidden;
+    outline: 2px solid white;
+    
+   
+  }
+
+  #hacesserios{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+
+  .textasse{
+    color: black;
+    font-size: 12px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 90%;
+    position: relative;
+    left: 247px;
+    bottom: 150px;
+  }
+
+  .bgkits {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 190px;
+    height: 240px;
+    z-index: 2;
+    background: rgba(255, 255, 255, .95);
+    background-image: url(https://www.remindbrindes.com.br/arquivos/Image/produtos/Kit-Bebidas/Kit-vinho-gaveta-queijoG1.jpg);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    overflow: hidden;
+    outline: 2px solid white;
+    
+   
+  }
+
+  #kit{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+
+  .textk{
+    color: black;
+    font-size: 12px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 90%;
+    position: relative;
+    left: 247px;
+    bottom: 150px;
+  }
+
+  footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer img{
+    height: 87px;
+    width: 120px;
+    border-radius: 20%;
+  }
+  
+  span{
+    color: black;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+  }
+  

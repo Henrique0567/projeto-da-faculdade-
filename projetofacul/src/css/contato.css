@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald:wght@200..700&display=swap);
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+header {
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  width: 60%;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  color: black;
+  cursor: pointer;
+  font-size: 19px; 
+  font-family: 'Kdam Thmor Pro', sans-serif; 
+}
+
+li:hover {
+    color: #550774;
+}
+
+#logo {
+    width: 120px;
+    height: auto;
+    position: relative;
+    right: 110px;
+}
+
+#banner {
+  position: relative; 
+  z-index: 1111;
+  background-image: url('https://cdnm.westwing.com.br/glossary/uploads/br/2015/05/09024404/M%C3%A3os-segurando-ta%C3%A7as-de-vinho-tinto-fazendo-um-brinde-Pexels-c-a3360.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  opacity: 0.19;
+}
+
+
+
+.descricao{
+  position: absolute;
+  background: none;
+  color: black;
+  width: 95%;
+  font-size: 70px;
+  top: 30%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  z-index: 1;
+  margin-bottom: 50px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.comentarios-1{
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 26px;
+  font-family: 'Oswald', sans-serif;
+ 
+}
+
+
+
+
+.comentarios-2{
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 25px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+
+.comentarios-3{
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Oswald', sans-serif;
+
+}
